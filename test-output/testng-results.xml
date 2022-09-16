@@ -29,36 +29,39 @@
       <![CDATA[---database closed successfull---]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-16T18:12:14 IST" name="Suite" finished-at="2022-09-16T18:13:00 IST" duration-ms="45386">
+  <suite started-at="2022-09-16T18:41:16 IST" name="Default suite" finished-at="2022-09-16T18:42:06 IST" duration-ms="49686">
     <groups>
-      <group name="SmokeSuite">
-        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" name="createOrgTest" class="vtiger.OrganizationsTests.CreateOrganizationTest"/>
-      </group> <!-- SmokeSuite -->
+      <group name="RegressionSuit">
+        <method signature="CreateOrganizationWithIndustryDropDownTest.createOrgTest()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" name="createOrgTest" class="vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest"/>
+      </group> <!-- RegressionSuit -->
+      <group name="SmokeSuit">
+        <method signature="CreateOrganizationWithIndustryDropDownTest.createOrgTest()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" name="createOrgTest" class="vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest"/>
+      </group> <!-- SmokeSuit -->
     </groups>
-    <test started-at="2022-09-16T18:12:14 IST" name="Test" finished-at="2022-09-16T18:13:00 IST" duration-ms="45386">
-      <class name="vtiger.OrganizationsTests.CreateOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:14 IST" name="bsConfig" finished-at="2022-09-16T18:12:14 IST" duration-ms="25" status="PASS">
+    <test started-at="2022-09-16T18:41:16 IST" name="Default test" finished-at="2022-09-16T18:42:06 IST" duration-ms="49686">
+      <class name="vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:41:16 IST" name="bsConfig" finished-at="2022-09-16T18:41:16 IST" duration-ms="22" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connection successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:15 IST" name="bcConfig" finished-at="2022-09-16T18:12:26 IST" duration-ms="11047" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:41:17 IST" name="bcConfig" finished-at="2022-09-16T18:41:27 IST" duration-ms="10135" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[--Browser firefoxlaunched successfulluy--]]>
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:26 IST" name="bmConfig" finished-at="2022-09-16T18:12:31 IST" duration-ms="4919" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:41:27 IST" name="bmConfig" finished-at="2022-09-16T18:41:33 IST" duration-ms="6010" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---login successful---]]>
             </line>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createOrgTest()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:31 IST" name="createOrgTest" finished-at="2022-09-16T18:12:55 IST" duration-ms="24127" status="PASS">
+        <test-method signature="createOrgTest()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:41:33 IST" name="createOrgTest" finished-at="2022-09-16T18:42:00 IST" duration-ms="26604" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Organization clicked]]>
@@ -71,28 +74,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:55 IST" name="amConfig" finished-at="2022-09-16T18:12:58 IST" duration-ms="2494" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:42:00 IST" name="amConfig" finished-at="2022-09-16T18:42:03 IST" duration-ms="3215" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignOut Successfull]]>
             </line>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:12:58 IST" name="acConfig" finished-at="2022-09-16T18:13:00 IST" duration-ms="1886" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:42:03 IST" name="acConfig" finished-at="2022-09-16T18:42:06 IST" duration-ms="2803" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---browser closed successfull---]]>
             </line>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationTest@4fb61f4a]" started-at="2022-09-16T18:13:01 IST" name="asConfig" finished-at="2022-09-16T18:13:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest@2e005c4b]" started-at="2022-09-16T18:42:07 IST" name="asConfig" finished-at="2022-09-16T18:42:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---database closed successfull---]]>
             </line>
           </reporter-output>
         </test-method> <!-- asConfig -->
-      </class> <!-- vtiger.OrganizationsTests.CreateOrganizationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

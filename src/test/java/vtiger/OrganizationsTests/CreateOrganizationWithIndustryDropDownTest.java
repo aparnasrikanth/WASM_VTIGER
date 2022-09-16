@@ -15,7 +15,7 @@ import vtiger.GenericUtility.BaseClass;
 
 
 public class CreateOrganizationWithIndustryDropDownTest extends BaseClass {
-	@Test(groups= {"SmokeSuit","RegressionSuit"})
+	@Test(groups= "RegressionSuit")
 
 	public void createOrgTest() throws Throwable {
 		

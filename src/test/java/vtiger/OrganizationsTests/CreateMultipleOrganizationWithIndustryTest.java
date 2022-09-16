@@ -15,7 +15,7 @@ import vtiger.GenericUtility.BaseClass;
 
 public class CreateMultipleOrganizationWithIndustryTest extends BaseClass{
 		
-		@Test(dataProvider="OrgData",groups="Regression")
+		@Test(dataProvider="OrgData",groups="RegressionSuit")
 		public void createMultipleOrganizationWithIndustryTest(String OrgName,String industryType) {
 			String Org=OrgName+jUtil.getRandomNumber();
 			
