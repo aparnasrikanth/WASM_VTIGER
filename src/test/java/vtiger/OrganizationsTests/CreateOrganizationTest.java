@@ -48,9 +48,13 @@ public class CreateOrganizationTest extends BaseClass {
 	
 //Assert.assertEquals(OrgHeader.contains(ORGNAME), true);
 		Assert.assertTrue(OrgHeader.contains(ORGNAME));
+	}
 		
 		
-		
+	@Test
+	public void Test() {
+		System.out.println("test");
+	}
 		
 		
 		
@@ -160,4 +164,4 @@ public class CreateOrganizationTest extends BaseClass {
 	}
 
 
-}
+
