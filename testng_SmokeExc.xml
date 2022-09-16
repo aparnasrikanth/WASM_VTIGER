@@ -9,7 +9,6 @@
   <test thread-count="5" name="Test">
     <classes>
        <class name="vtiger.OrganizationsTests.CreateOrganizationTest"/>
-      <class name="vtiger.OrganizationsTests.CreateOrganizationWithIndustryDropDownTest"/>
-    </classes>
+       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
